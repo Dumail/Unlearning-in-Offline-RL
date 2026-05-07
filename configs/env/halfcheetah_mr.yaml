@@ -1,0 +1,8 @@
+env_name: halfcheetah-medium-replay-v2
+state_dim: 17
+act_dim: 6
+max_ep_len: 1000
+target_return: 6000
+random_score: -280.178
+expert_score: 12135.0
+dataset_url: "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/halfcheetah_medium_replay-v2.hdf5"

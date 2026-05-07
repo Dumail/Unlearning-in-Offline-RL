@@ -1,0 +1,7 @@
+kl_weight: 1.0
+ascent_steps: 500
+ascent_lr: 1.0e-4
+refit_steps: 10000
+refit_lr: 1.0e-4
+grad_clip: 0.25
+reinit_refit_head: true

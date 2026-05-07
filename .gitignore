@@ -1,0 +1,37 @@
+# Caches and venvs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+uv.lock
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Outputs and binaries (auto-generated; not part of release)
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+results/*
+!results/.gitkeep
+outputs/
+multirun/
+wandb/
+runs/
+logs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.log
+*.tmp
+
+# Editor
+.idea/
+tests/
+.vscode/
+*.swp
+.DS_Store

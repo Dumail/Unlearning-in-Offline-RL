@@ -1,0 +1,15 @@
+# MLP (multi-layer perceptron) model configuration - placeholder
+# Model type: mlp_policy (simple feed-forward network)
+model_type: mlp_policy
+
+# Embedding dimension
+embedding_dim: 128
+
+# Hidden layer configuration (num_layers x dimension)
+hidden_layers: [256, 256]
+
+# Dropout probability
+dropout: 0.1
+
+# Action head type: gaussian
+action_head: gaussian

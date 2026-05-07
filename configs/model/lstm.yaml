@@ -1,0 +1,6 @@
+# LSTM sequential policy model configuration
+model_type: lstm_policy
+embedding_dim: 128
+n_layers: 3
+dropout: 0.1
+action_head: gaussian

@@ -1,0 +1,8 @@
+env_name: hopper-medium-replay-v2
+state_dim: 11
+act_dim: 3
+max_ep_len: 1000
+target_return: 3600
+random_score: -20.272
+expert_score: 3234.3
+dataset_url: "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/hopper_medium_replay-v2.hdf5"

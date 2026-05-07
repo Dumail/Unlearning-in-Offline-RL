@@ -1,0 +1,11 @@
+defaults:
+  - env: halfcheetah_mr
+  - train: default
+  - model: dt
+  - unlearn: default
+  - _self_
+
+seed: 42
+data_dir: data
+checkpoint_dir: checkpoints
+results_dir: results

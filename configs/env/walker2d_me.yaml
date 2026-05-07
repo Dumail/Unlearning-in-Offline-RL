@@ -1,0 +1,8 @@
+env_name: walker2d-medium-expert-v2
+state_dim: 17
+act_dim: 6
+max_ep_len: 1000
+target_return: 5000
+random_score: 1.629
+expert_score: 4592.3
+dataset_url: "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/walker2d_medium_expert-v2.hdf5"

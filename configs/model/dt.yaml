@@ -1,0 +1,18 @@
+# Decision Transformer model configuration
+# Model type: decision_transformer (GPT-2 style)
+model_type: decision_transformer
+
+# Embedding dimension (corresponds to train/hidden_dim)
+embedding_dim: 128
+
+# Number of attention heads
+n_heads: 1
+
+# Number of Transformer layers
+n_layers: 3
+
+# Dropout probability
+dropout: 0.1
+
+# Action head type: gaussian (mu + globally shared sigma^2)
+action_head: gaussian
